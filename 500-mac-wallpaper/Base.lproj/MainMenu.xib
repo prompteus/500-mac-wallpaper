@@ -27,6 +27,11 @@
                         <action selector="quitClickedWithSender:" target="eAK-0g-AP1" id="KU2-Aa-5EV"/>
                     </connections>
                 </menuItem>
+                <menuItem title="Preferences" keyEquivalent="," id="tqU-T0-zz8">
+                    <connections>
+                        <action selector="preferencesClickedWithSender:" target="eAK-0g-AP1" id="R6u-6v-Cn6"/>
+                    </connections>
+                </menuItem>
                 <menuItem title="About" id="oFq-uf-9ag">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
