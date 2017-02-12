@@ -12,6 +12,7 @@
 		A15B51911E4FC3F20074B0AA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15B518F1E4FC3F20074B0AA /* MainMenu.xib */; };
 		A15B519C1E4FC3F20074B0AA /* _00_mac_wallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B519B1E4FC3F20074B0AA /* _00_mac_wallpaperTests.swift */; };
 		A15B51A71E4FC3F20074B0AA /* _00_mac_wallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B51A61E4FC3F20074B0AA /* _00_mac_wallpaperUITests.swift */; };
+		A1BB227E1E50C08000F3EDE7 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB227D1E50C08000F3EDE7 /* StatusMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A15B51A61E4FC3F20074B0AA /* _00_mac_wallpaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _00_mac_wallpaperUITests.swift; sourceTree = "<group>"; };
 		A15B51A81E4FC3F20074B0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15B51B41E4FC57B0074B0AA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A1BB227D1E50C08000F3EDE7 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				A15B518D1E4FC3F20074B0AA /* Assets.xcassets */,
 				A15B518F1E4FC3F20074B0AA /* MainMenu.xib */,
 				A15B51921E4FC3F20074B0AA /* Info.plist */,
+				A1BB227D1E50C08000F3EDE7 /* StatusMenuController.swift */,
 			);
 			path = "500-mac-wallpaper";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BB227E1E50C08000F3EDE7 /* StatusMenuController.swift in Sources */,
 				A15B518C1E4FC3F20074B0AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				A15B51AD1E4FC3F20074B0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A15B51AE1E4FC3F20074B0AA /* Build configuration list for PBXNativeTarget "500-mac-wallpaperTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				A15B51B01E4FC3F20074B0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A15B51B11E4FC3F20074B0AA /* Build configuration list for PBXNativeTarget "500-mac-wallpaperUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				A15B51B31E4FC3F20074B0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

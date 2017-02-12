@@ -14,5 +14,21 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="_00_mac_wallpaper" customModuleProvider="target"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="eAK-0g-AP1" customClass="StatusMenuController" customModule="_00_mac_wallpaper" customModuleProvider="target">
+            <connections>
+                <outlet property="statusMenu" destination="RmN-cm-X6u" id="dHo-mS-SE9"/>
+            </connections>
+        </customObject>
+        <menu id="RmN-cm-X6u">
+            <items>
+                <menuItem title="Quit" id="u3d-oZ-Ytg">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClickedWithSender:" target="eAK-0g-AP1" id="KU2-Aa-5EV"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="94.5" y="165.5"/>
+        </menu>
     </objects>
 </document>
