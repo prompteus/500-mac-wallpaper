@@ -27,8 +27,14 @@
                         <action selector="quitClickedWithSender:" target="eAK-0g-AP1" id="KU2-Aa-5EV"/>
                     </connections>
                 </menuItem>
+                <menuItem title="About" id="oFq-uf-9ag">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="orderFrontStandardAboutPanel:" target="-1" id="Lor-6U-Ffp"/>
+                    </connections>
+                </menuItem>
             </items>
-            <point key="canvasLocation" x="94.5" y="165.5"/>
+            <point key="canvasLocation" x="94" y="165.5"/>
         </menu>
     </objects>
 </document>
