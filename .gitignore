@@ -110,3 +110,7 @@ fastlane/test_output
 ## Other
 
 # End of https://www.gitignore.io/api/macos,xcode,swift
+
+500-mac-wallpaper/ApiKeys.plist
+Pods
+

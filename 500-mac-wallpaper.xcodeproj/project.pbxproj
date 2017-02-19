@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3054662DBA4DA9AC0264E8 /* Pods_500_mac_wallpaperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A622218D2F7393143A14219 /* Pods_500_mac_wallpaperUITests.framework */; };
+		4581EDBDE93126403D2C2601 /* Pods_500_mac_wallpaperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A12B883602E6CA73A079C23 /* Pods_500_mac_wallpaperTests.framework */; };
+		9D5526B4FD255F1AAE02C426 /* Pods_500_mac_wallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC39EA87822943DB8872DE8 /* Pods_500_mac_wallpaper.framework */; };
 		A15B518C1E4FC3F20074B0AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B518B1E4FC3F20074B0AA /* AppDelegate.swift */; };
 		A15B518E1E4FC3F20074B0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15B518D1E4FC3F20074B0AA /* Assets.xcassets */; };
 		A15B51911E4FC3F20074B0AA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15B518F1E4FC3F20074B0AA /* MainMenu.xib */; };
@@ -15,6 +18,8 @@
 		A1BB227E1E50C08000F3EDE7 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB227D1E50C08000F3EDE7 /* StatusMenuController.swift */; };
 		A1BB22831E51083400F3EDE7 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB22811E51083400F3EDE7 /* PreferencesWindow.swift */; };
 		A1BB22841E51083400F3EDE7 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BB22821E51083400F3EDE7 /* PreferencesWindow.xib */; };
+		A1FF48E51E58F9480098B552 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF48E41E58F9480098B552 /* ArrayExtensions.swift */; };
+		A1FF48E71E5911AB0098B552 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1FF48E61E5911AB0098B552 /* ApiKeys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CF4AEC426252598B69FE880 /* Pods-500-mac-wallpaperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500-mac-wallpaperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-500-mac-wallpaperUITests/Pods-500-mac-wallpaperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33ED7EC6F0A79D96A6C976DD /* Pods-500-mac-wallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500-mac-wallpaper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-500-mac-wallpaper/Pods-500-mac-wallpaper.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC39EA87822943DB8872DE8 /* Pods_500_mac_wallpaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_500_mac_wallpaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A12B883602E6CA73A079C23 /* Pods_500_mac_wallpaperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_500_mac_wallpaperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678C1DB55F1360EA9F130FA7 /* Pods-500-mac-wallpaperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500-mac-wallpaperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-500-mac-wallpaperTests/Pods-500-mac-wallpaperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		999F210A3D1D025A6AC07D9A /* Pods-500-mac-wallpaperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500-mac-wallpaperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-500-mac-wallpaperUITests/Pods-500-mac-wallpaperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A622218D2F7393143A14219 /* Pods_500_mac_wallpaperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_500_mac_wallpaperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15B51881E4FC3F20074B0AA /* 500-mac-wallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "500-mac-wallpaper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15B518B1E4FC3F20074B0AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A15B518D1E4FC3F20074B0AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +62,10 @@
 		A1BB227D1E50C08000F3EDE7 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		A1BB22811E51083400F3EDE7 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
 		A1BB22821E51083400F3EDE7 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		A1FF48E41E58F9480098B552 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		A1FF48E61E5911AB0098B552 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		A2D4A7E39CA7007819859EC1 /* Pods-500-mac-wallpaperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500-mac-wallpaperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-500-mac-wallpaperTests/Pods-500-mac-wallpaperTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD25F2177DD42F0752B73042 /* Pods-500-mac-wallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500-mac-wallpaper.release.xcconfig"; path = "Pods/Target Support Files/Pods-500-mac-wallpaper/Pods-500-mac-wallpaper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5526B4FD255F1AAE02C426 /* Pods_500_mac_wallpaper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4581EDBDE93126403D2C2601 /* Pods_500_mac_wallpaperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3054662DBA4DA9AC0264E8 /* Pods_500_mac_wallpaperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07BABFAA042D44A8B96737B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AC39EA87822943DB8872DE8 /* Pods_500_mac_wallpaper.framework */,
+				5A12B883602E6CA73A079C23 /* Pods_500_mac_wallpaperTests.framework */,
+				9A622218D2F7393143A14219 /* Pods_500_mac_wallpaperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26EBDA4C5664B710012EAD16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33ED7EC6F0A79D96A6C976DD /* Pods-500-mac-wallpaper.debug.xcconfig */,
+				CD25F2177DD42F0752B73042 /* Pods-500-mac-wallpaper.release.xcconfig */,
+				678C1DB55F1360EA9F130FA7 /* Pods-500-mac-wallpaperTests.debug.xcconfig */,
+				A2D4A7E39CA7007819859EC1 /* Pods-500-mac-wallpaperTests.release.xcconfig */,
+				2CF4AEC426252598B69FE880 /* Pods-500-mac-wallpaperUITests.debug.xcconfig */,
+				999F210A3D1D025A6AC07D9A /* Pods-500-mac-wallpaperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A15B517F1E4FC3F10074B0AA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				A15B519A1E4FC3F20074B0AA /* 500-mac-wallpaperTests */,
 				A15B51A51E4FC3F20074B0AA /* 500-mac-wallpaperUITests */,
 				A15B51891E4FC3F20074B0AA /* Products */,
+				26EBDA4C5664B710012EAD16 /* Pods */,
+				07BABFAA042D44A8B96737B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +152,8 @@
 				A1BB227D1E50C08000F3EDE7 /* StatusMenuController.swift */,
 				A1BB22811E51083400F3EDE7 /* PreferencesWindow.swift */,
 				A1BB22821E51083400F3EDE7 /* PreferencesWindow.xib */,
+				A1FF48E41E58F9480098B552 /* ArrayExtensions.swift */,
+				A1FF48E61E5911AB0098B552 /* ApiKeys.plist */,
 			);
 			path = "500-mac-wallpaper";
 			sourceTree = "<group>";
@@ -137,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A15B51AB1E4FC3F20074B0AA /* Build configuration list for PBXNativeTarget "500-mac-wallpaper" */;
 			buildPhases = (
+				7EB80BC8E0CC779DCC214827 /* [CP] Check Pods Manifest.lock */,
 				A15B51841E4FC3F10074B0AA /* Sources */,
 				A15B51851E4FC3F10074B0AA /* Frameworks */,
 				A15B51861E4FC3F10074B0AA /* Resources */,
+				9CAB87E7115B6CE1DA0B4F0B /* [CP] Embed Pods Frameworks */,
+				524BF02468AEDF9F8A3612CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A15B51AE1E4FC3F20074B0AA /* Build configuration list for PBXNativeTarget "500-mac-wallpaperTests" */;
 			buildPhases = (
+				F187B302F1A8BB9031AD50DB /* [CP] Check Pods Manifest.lock */,
 				A15B51931E4FC3F20074B0AA /* Sources */,
 				A15B51941E4FC3F20074B0AA /* Frameworks */,
 				A15B51951E4FC3F20074B0AA /* Resources */,
+				CB745072C17E379ECDD2656E /* [CP] Embed Pods Frameworks */,
+				C1E19BBED78C62E6DB74EAE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A15B51B11E4FC3F20074B0AA /* Build configuration list for PBXNativeTarget "500-mac-wallpaperUITests" */;
 			buildPhases = (
+				CED9E045AE7CB123BB3C403B /* [CP] Check Pods Manifest.lock */,
 				A15B519E1E4FC3F20074B0AA /* Sources */,
 				A15B519F1E4FC3F20074B0AA /* Frameworks */,
 				A15B51A01E4FC3F20074B0AA /* Resources */,
+				6120EC183DDCDCDF5BB5DBA7 /* [CP] Embed Pods Frameworks */,
+				D18151FDF37B87BCB9698157 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A15B518E1E4FC3F20074B0AA /* Assets.xcassets in Resources */,
+				A1FF48E71E5911AB0098B552 /* ApiKeys.plist in Resources */,
 				A1BB22841E51083400F3EDE7 /* PreferencesWindow.xib in Resources */,
 				A15B51911E4FC3F20074B0AA /* MainMenu.xib in Resources */,
 			);
@@ -262,12 +318,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		524BF02468AEDF9F8A3612CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-500-mac-wallpaper/Pods-500-mac-wallpaper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6120EC183DDCDCDF5BB5DBA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-500-mac-wallpaperUITests/Pods-500-mac-wallpaperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB80BC8E0CC779DCC214827 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CAB87E7115B6CE1DA0B4F0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-500-mac-wallpaper/Pods-500-mac-wallpaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E19BBED78C62E6DB74EAE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-500-mac-wallpaperTests/Pods-500-mac-wallpaperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB745072C17E379ECDD2656E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-500-mac-wallpaperTests/Pods-500-mac-wallpaperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED9E045AE7CB123BB3C403B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D18151FDF37B87BCB9698157 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-500-mac-wallpaperUITests/Pods-500-mac-wallpaperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F187B302F1A8BB9031AD50DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A15B51841E4FC3F10074B0AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1BB227E1E50C08000F3EDE7 /* StatusMenuController.swift in Sources */,
+				A1FF48E51E58F9480098B552 /* ArrayExtensions.swift in Sources */,
 				A1BB22831E51083400F3EDE7 /* PreferencesWindow.swift in Sources */,
 				A15B518C1E4FC3F20074B0AA /* AppDelegate.swift in Sources */,
 			);
@@ -408,6 +603,7 @@
 		};
 		A15B51AC1E4FC3F20074B0AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33ED7EC6F0A79D96A6C976DD /* Pods-500-mac-wallpaper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -422,6 +618,7 @@
 		};
 		A15B51AD1E4FC3F20074B0AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD25F2177DD42F0752B73042 /* Pods-500-mac-wallpaper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -436,6 +633,7 @@
 		};
 		A15B51AF1E4FC3F20074B0AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678C1DB55F1360EA9F130FA7 /* Pods-500-mac-wallpaperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +650,7 @@
 		};
 		A15B51B01E4FC3F20074B0AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D4A7E39CA7007819859EC1 /* Pods-500-mac-wallpaperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +667,7 @@
 		};
 		A15B51B21E4FC3F20074B0AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF4AEC426252598B69FE880 /* Pods-500-mac-wallpaperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -483,6 +683,7 @@
 		};
 		A15B51B31E4FC3F20074B0AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999F210A3D1D025A6AC07D9A /* Pods-500-mac-wallpaperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
