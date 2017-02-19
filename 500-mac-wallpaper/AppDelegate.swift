@@ -35,7 +35,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             case .success:
                 let wallpapersUrls = self.arrayOfWallpapersURLs(from: response.result.value as! NSDictionary)
                 let chosenWallpaperUrl = wallpapersUrls.chooseRandomElement()
-                self.setBackgroundImage(imageURL: chosenWallpaperUrl)
+                self.setBackgroundFromOnline(imageURL: chosenWallpaperUrl)
             case .failure(let error):
                 print(error)
             }
@@ -55,8 +55,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return array
     }
     
-    func setBackgroundImage(imageURL: String) {
-        
+    func setBackgroundFromOnline(imageURL: String) {
         let destination: DownloadRequest.DownloadFileDestination = { _, _ in
             var localFileURL = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
             localFileURL.appendPathComponent("500-mac-wallpaper")
@@ -64,7 +63,23 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             return (localFileURL, [.removePreviousFile, .createIntermediateDirectories])
         }
         
-        Alamofire.download(imageURL, to: destination)
+        Alamofire.download(imageURL, to: destination).validate().responseData { response in
+            self.setBackgroundFromLocal(imageURL: (response.destinationURL?.path)!)
+        }
+    }
+    
+    func setBackgroundFromLocal(imageURL: String) {
+        let sharedWorkspace = NSWorkspace.shared()
+        let screens = NSScreen.screens()!
+        let wallpaperUrl = NSURL.fileURL(withPath: imageURL) as NSURL
+        
+        for screen in screens {
+            do {
+                try sharedWorkspace.setDesktopImageURL(wallpaperUrl as URL, for: screen)
+            } catch {
+                print(error)
+            }
+        }
     }
     
     func applicationWillTerminate(_ aNotification: Notification) {
