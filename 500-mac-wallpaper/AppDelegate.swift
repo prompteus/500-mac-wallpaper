@@ -34,7 +34,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             switch response.result {
             case .success:
                 let wallpapersUrls = self.arrayOfWallpapersURLs(from: response.result.value as! NSDictionary)
-                let randomWallpaperUrl = wallpapersUrls.chooseRandomElement()
+                let chosenWallpaperUrl = wallpapersUrls.chooseRandomElement()
+                self.setBackgroundImage(imageURL: chosenWallpaperUrl)
             case .failure(let error):
                 print(error)
             }
@@ -52,6 +53,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             }
         }
         return array
+    }
+    
+    func setBackgroundImage(imageURL: String) {
+        
+        let destination: DownloadRequest.DownloadFileDestination = { _, _ in
+            var localFileURL = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
+            localFileURL.appendPathComponent("500-mac-wallpaper")
+            localFileURL.appendPathComponent((NSURL(string: imageURL)?.lastPathComponent)!)
+            return (localFileURL, [.removePreviousFile, .createIntermediateDirectories])
+        }
+        
+        Alamofire.download(imageURL, to: destination)
     }
     
     func applicationWillTerminate(_ aNotification: Notification) {
