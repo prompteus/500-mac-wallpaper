@@ -13,6 +13,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     static let WALLPAPER_MIN_HEIGHT = 1080
     static let WALLPAPER_MAX_RATIO_DIFFERENCE_FROM_SCREEN: Float = 0.15
     static let MAX_DOWNLOADED_PHOTOS = 5
+    static let UPDATE_INTERVAL: Double = 6 * 60 * 60
     
     static let WALLPAPERS_URL = "https://api.500px.com/v1/photos?image_size=2048&feature=popular&only=Landscapes&consumer_key=" + AppDelegate.getApiKey()
     
@@ -88,7 +89,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        timer = Timer.scheduledTimer(withTimeInterval: 5.0, repeats: true) {_ in
+        timer = Timer.scheduledTimer(withTimeInterval: AppDelegate.UPDATE_INTERVAL, repeats: true) {_ in 
             self.downloadNewWallpapers()
         }
     }
