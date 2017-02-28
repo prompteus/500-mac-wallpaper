@@ -16,8 +16,6 @@
 		A15B519C1E4FC3F20074B0AA /* _00_mac_wallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B519B1E4FC3F20074B0AA /* _00_mac_wallpaperTests.swift */; };
 		A15B51A71E4FC3F20074B0AA /* _00_mac_wallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B51A61E4FC3F20074B0AA /* _00_mac_wallpaperUITests.swift */; };
 		A1BB227E1E50C08000F3EDE7 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB227D1E50C08000F3EDE7 /* StatusMenuController.swift */; };
-		A1BB22831E51083400F3EDE7 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB22811E51083400F3EDE7 /* PreferencesWindow.swift */; };
-		A1BB22841E51083400F3EDE7 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BB22821E51083400F3EDE7 /* PreferencesWindow.xib */; };
 		A1FF48E51E58F9480098B552 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF48E41E58F9480098B552 /* ArrayExtensions.swift */; };
 		A1FF48E71E5911AB0098B552 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1FF48E61E5911AB0098B552 /* ApiKeys.plist */; };
 /* End PBXBuildFile section */
@@ -60,8 +58,6 @@
 		A15B51A81E4FC3F20074B0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15B51B41E4FC57B0074B0AA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A1BB227D1E50C08000F3EDE7 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
-		A1BB22811E51083400F3EDE7 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
-		A1BB22821E51083400F3EDE7 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
 		A1FF48E41E58F9480098B552 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		A1FF48E61E5911AB0098B552 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
 		A2D4A7E39CA7007819859EC1 /* Pods-500-mac-wallpaperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500-mac-wallpaperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-500-mac-wallpaperTests/Pods-500-mac-wallpaperTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,8 +146,6 @@
 				A15B518F1E4FC3F20074B0AA /* MainMenu.xib */,
 				A15B51921E4FC3F20074B0AA /* Info.plist */,
 				A1BB227D1E50C08000F3EDE7 /* StatusMenuController.swift */,
-				A1BB22811E51083400F3EDE7 /* PreferencesWindow.swift */,
-				A1BB22821E51083400F3EDE7 /* PreferencesWindow.xib */,
 				A1FF48E41E58F9480098B552 /* ArrayExtensions.swift */,
 				A1FF48E61E5911AB0098B552 /* ApiKeys.plist */,
 			);
@@ -297,7 +291,6 @@
 			files = (
 				A15B518E1E4FC3F20074B0AA /* Assets.xcassets in Resources */,
 				A1FF48E71E5911AB0098B552 /* ApiKeys.plist in Resources */,
-				A1BB22841E51083400F3EDE7 /* PreferencesWindow.xib in Resources */,
 				A15B51911E4FC3F20074B0AA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,7 +456,6 @@
 			files = (
 				A1BB227E1E50C08000F3EDE7 /* StatusMenuController.swift in Sources */,
 				A1FF48E51E58F9480098B552 /* ArrayExtensions.swift in Sources */,
-				A1BB22831E51083400F3EDE7 /* PreferencesWindow.swift in Sources */,
 				A15B518C1E4FC3F20074B0AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
